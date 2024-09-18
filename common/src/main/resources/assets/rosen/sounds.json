@@ -1,0 +1,74 @@
+{
+	"block.note_block.carillon": {
+		"sounds": ["rosen:note/carillon"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.vibraphone": {
+		"sounds": ["rosen:note/vibraphone"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.choir": {
+		"sounds": ["rosen:note/choir"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.violin": {
+		"sounds": ["rosen:note/violin"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.synth": {
+		"sounds": ["rosen:note/synth"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.accordion": {
+		"sounds": ["rosen:note/accordion"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.synth_bass": {
+		"sounds": ["rosen:note/synth_bass"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.chip": {
+		"sounds": ["rosen:note/chip"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.piano": {
+		"sounds": ["rosen:note/piano"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.kick": {
+		"sounds": ["rosen:note/kick"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.organ": {
+		"sounds": ["rosen:note/organ"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.beach": {
+		"sounds": ["rosen:note/beach"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.timpani": {
+		"sounds": ["rosen:note/timpani"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.saxophone": {
+		"sounds": ["rosen:note/saxophone"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.log_drum": {
+		"sounds": ["rosen:note/log_drum"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.clap": {
+		"sounds": ["rosen:note/clap"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.power_guitar": {
+		"sounds": ["rosen:note/power_guitar"],
+		"subtitle": "subtitles.block.note_block.note"
+	},
+	"block.note_block.sitar": {
+		"sounds": ["rosen:note/sitar"],
+		"subtitle": "subtitles.block.note_block.note"
+	}
+}
