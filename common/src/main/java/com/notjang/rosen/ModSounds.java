@@ -14,7 +14,7 @@ public class ModSounds {
     public static final Holder<SoundEvent> ACCORDION = add("block.note_block.accordion");
     public static final Holder<SoundEvent> BEACH = add("block.note_block.beach");
     public static final Holder<SoundEvent> CARILLON = add("block.note_block.carillon");
-    public static final Holder<SoundEvent> CHIP = add("block.note_block.chip");
+    public static final Holder<SoundEvent> MUSIC_BOX = add("block.note_block.music_box");
     public static final Holder<SoundEvent> CHOIR = add("block.note_block.choir");
     public static final Holder<SoundEvent> CLAP = add("block.note_block.clap");
     public static final Holder<SoundEvent> KICK = add("block.note_block.kick");

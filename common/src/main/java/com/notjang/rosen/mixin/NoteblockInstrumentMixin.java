@@ -40,7 +40,7 @@ public class NoteblockInstrumentMixin {
         rosen$addInstrument("ACCORDION", "accordion", ModSounds.ACCORDION);
         rosen$addInstrument("BEACH", "beach", ModSounds.BEACH);
         rosen$addInstrument("CARILLON", "carillon", ModSounds.CARILLON);
-        rosen$addInstrument("CHIP", "chip", ModSounds.CHIP);
+        rosen$addInstrument("MUSIC_BOX", "music_box", ModSounds.MUSIC_BOX);
         rosen$addInstrument("CHOIR", "choir", ModSounds.CHOIR);
         rosen$addInstrument("CLAP", "clap", ModSounds.CLAP);
         rosen$addInstrument("KICK", "kick", ModSounds.KICK);
