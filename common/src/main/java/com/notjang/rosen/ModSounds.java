@@ -16,7 +16,7 @@ public class ModSounds {
     public static final Holder<SoundEvent> CARILLON = add("block.note_block.carillon");
     public static final Holder<SoundEvent> MUSIC_BOX = add("block.note_block.music_box");
     public static final Holder<SoundEvent> CHOIR = add("block.note_block.choir");
-    public static final Holder<SoundEvent> CLAP = add("block.note_block.clap");
+    public static final Holder<SoundEvent> DHOLAK = add("block.note_block.dholak");
     public static final Holder<SoundEvent> KICK = add("block.note_block.kick");
     public static final Holder<SoundEvent> LOG_DRUM = add("block.note_block.log_drum");
     public static final Holder<SoundEvent> ORGAN = add("block.note_block.organ");

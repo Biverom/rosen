@@ -1,7 +1,7 @@
 package com.notjang.rosen.mixin;
 
 import com.notjang.rosen.ModSounds;
-import com.notjang.rosen.RosenInstrumentContainer;
+import com.notjang.rosen.InstrumentContainer;
 import net.minecraft.core.Holder;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -31,8 +31,7 @@ public class NoteblockInstrumentMixin {
         NoteBlockInstrument instrument = invokeInit(internalName, variants.get(variants.size() - 1).ordinal() + 1, name, sound, NoteBlockInstrument.Type.BASE_BLOCK);
         variants.add(instrument);
         $VALUES = variants.toArray(new NoteBlockInstrument[0]);
-        RosenInstrumentContainer.instruments.put(name, instrument);
-        //return instrument;
+        InstrumentContainer.instruments.put(name, instrument);
     }
 
     @Unique
@@ -42,7 +41,7 @@ public class NoteblockInstrumentMixin {
         rosen$addInstrument("CARILLON", "carillon", ModSounds.CARILLON);
         rosen$addInstrument("MUSIC_BOX", "music_box", ModSounds.MUSIC_BOX);
         rosen$addInstrument("CHOIR", "choir", ModSounds.CHOIR);
-        rosen$addInstrument("CLAP", "clap", ModSounds.CLAP);
+        rosen$addInstrument("DHOLAK", "dholak", ModSounds.DHOLAK);
         rosen$addInstrument("KICK", "kick", ModSounds.KICK);
         rosen$addInstrument("LOG_DRUM", "log_drum", ModSounds.LOG_DRUM);
         rosen$addInstrument("ORGAN", "organ", ModSounds.ORGAN);

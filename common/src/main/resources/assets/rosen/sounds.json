@@ -27,8 +27,8 @@
 		"sounds": ["rosen:note/synth_bass"],
 		"subtitle": "subtitles.block.note_block.note"
 	},
-	"block.note_block.chip": {
-		"sounds": ["rosen:note/chip"],
+	"block.note_block.music_box": {
+		"sounds": ["rosen:note/music_box"],
 		"subtitle": "subtitles.block.note_block.note"
 	},
 	"block.note_block.piano": {
@@ -59,8 +59,8 @@
 		"sounds": ["rosen:note/log_drum"],
 		"subtitle": "subtitles.block.note_block.note"
 	},
-	"block.note_block.clap": {
-		"sounds": ["rosen:note/clap"],
+	"block.note_block.dholak": {
+		"sounds": ["rosen:note/dholak"],
 		"subtitle": "subtitles.block.note_block.note"
 	},
 	"block.note_block.power_guitar": {

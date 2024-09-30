@@ -1,7 +1,6 @@
 package com.notjang.rosen.mixin;
 
 import com.notjang.rosen.Constants;
-import com.notjang.rosen.RosenInstrumentContainer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
