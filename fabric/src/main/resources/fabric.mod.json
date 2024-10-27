@@ -5,11 +5,13 @@
     "name": "${mod_name}",
     "description": "${description}",
     "authors": [
-        "${mod_author}"
+        "Firch",
+        "Biverom"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "${homepage_url}",
+        "issues": "${git_url}/issues",
+        "sources": "${git_url}"
     },
     "license": "${license}",
     "icon": "${mod_id}_icon.png",
