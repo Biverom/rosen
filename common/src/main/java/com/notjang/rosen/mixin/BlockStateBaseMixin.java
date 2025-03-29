@@ -7,7 +7,8 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
@@ -31,7 +32,7 @@ public class BlockStateBaseMixin {
 
     @Unique
     private boolean rosen$isBlockInTag(String tagName) {
-        TagKey<Block> tag = TagKey.create(Registries.BLOCK, new ResourceLocation(Constants.MOD_ID, tagName));
+        TagKey<Block> tag = TagKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, tagName));
         BlockBehaviour.BlockStateBase thisObject = (BlockBehaviour.BlockStateBase)(Object)this;
         return thisObject.is(tag);
     }

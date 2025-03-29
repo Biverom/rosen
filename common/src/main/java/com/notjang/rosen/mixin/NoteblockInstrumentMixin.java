@@ -1,7 +1,7 @@
 package com.notjang.rosen.mixin;
 
-import com.notjang.rosen.ModSounds;
 import com.notjang.rosen.InstrumentContainer;
+import com.notjang.rosen.ModSounds;
 import net.minecraft.core.Holder;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
@@ -28,7 +28,7 @@ public class NoteblockInstrumentMixin {
     @Unique
     private static void rosen$addInstrument(String internalName, String name, Holder<SoundEvent> sound) {
         ArrayList<NoteBlockInstrument> variants = new ArrayList<>(Arrays.asList($VALUES));
-        NoteBlockInstrument instrument = invokeInit(internalName, variants.get(variants.size() - 1).ordinal() + 1, name, sound, NoteBlockInstrument.Type.BASE_BLOCK);
+        NoteBlockInstrument instrument = invokeInit(internalName, variants.getLast().ordinal() + 1, name, sound, NoteBlockInstrument.Type.BASE_BLOCK);
         variants.add(instrument);
         $VALUES = variants.toArray(new NoteBlockInstrument[0]);
         InstrumentContainer.instruments.put(name, instrument);

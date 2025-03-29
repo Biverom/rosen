@@ -1,5 +1,6 @@
 package com.notjang.rosen;
 
+
 import com.notjang.rosen.platform.Services;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
@@ -33,7 +34,7 @@ public class ModSounds {
     private static Holder<SoundEvent> add(String id) {
         SoundEvent sound = Services.SOUND_REGISTRY.registerSound(id);
         Holder<SoundEvent> holder = new Holder.Direct<>(sound);
-        SOUND_EVENTS.put(new ResourceLocation(Constants.MOD_ID, id), holder);
+        SOUND_EVENTS.put(ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, id), holder);
         return holder;
     }
 }
