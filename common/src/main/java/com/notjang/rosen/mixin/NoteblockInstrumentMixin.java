@@ -4,12 +4,14 @@ import com.notjang.rosen.InstrumentContainer;
 import com.notjang.rosen.ModSounds;
 import net.minecraft.core.Holder;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.gen.Invoker;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.function.Supplier;
 
 @Debug(export = true)
 @Mixin(NoteBlockInstrument.class)
@@ -54,6 +56,7 @@ public class NoteblockInstrumentMixin {
         rosen$addInstrument("TIMPANI", "timpani", ModSounds.TIMPANI);
         rosen$addInstrument("VIBRAPHONE", "vibraphone", ModSounds.VIBRAPHONE);
         rosen$addInstrument("VIOLIN", "violin", ModSounds.VIOLIN);
+        rosen$addInstrument("CUSTOM", "custom", new Holder.Direct<>(SoundEvents.EMPTY));
     }
 
     @Invoker("<init>")

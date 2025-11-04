@@ -5,8 +5,8 @@
     "name": "${mod_name}",
     "description": "${description}",
     "authors": [
-        "Firch",
-        "Biverom"
+        "Violunae",
+        "Firch"
     ],
     "contact": {
         "homepage": "${homepage_url}",

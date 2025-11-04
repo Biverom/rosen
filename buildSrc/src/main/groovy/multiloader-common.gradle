@@ -101,8 +101,7 @@ processResources {
             'credits'                      : credits,
             'java_version'                 : java_version,
             "homepage_url"                 : homepage_url,
-            "git_url"                      : git_url,
-            "update_url"                   : update_url
+            "git_url"                      : git_url
     ]
 
     filesMatching(['pack.mcmeta', 'fabric.mod.json', 'META-INF/mods.toml', 'META-INF/neoforge.mods.toml', '*.mixins.json']) {

@@ -6,7 +6,8 @@
   "compatibilityLevel": "JAVA_18",
   "mixins": [
     "BlockStateBaseMixin",
-    "NoteblockInstrumentMixin"
+    "NoteblockInstrumentMixin",
+    "NoteBlockMixin"
   ],
   "client": [
   ],
