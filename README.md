@@ -1,4 +1,5 @@
-![Rosen](https://github.com/user-attachments/assets/b561bd59-02e0-4c29-9865-c1927bc80a9a)
+<img width="2048" height="600" alt="Rosen" src="https://github.com/user-attachments/assets/6cd60d63-78b1-450a-a71f-ddd6e262f8e9" />
+
 
 # A mod that adds more noteblock instruments!
 
